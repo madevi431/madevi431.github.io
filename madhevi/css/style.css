@@ -1,0 +1,123 @@
+.parent{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.child{
+	width: 25%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 0px 8px 8px -8px #000;*/
+	border-radius: 10px 0px;
+	height: 350px;
+}
+
+.role{
+	color: #000;
+	font-style: italic;
+}
+
+.profile{
+	width: 40%;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+
+.link{
+	margin: 1%;
+	text-decoration: none;
+	font-size: 18px;
+	color: #5062b4;
+}
+
+.info{
+	width: 5%;
+}
+
+.contact{
+	text-align: left;
+}
+
+.socialIcon{
+	width: 10%;
+}
+
+.child2{
+	width: 60%;
+	margin: 1%;
+	padding: 1%;
+	border: 1px solid #ddd;
+	box-shadow: 0px 8px 8px -8px #000;
+}
+
+ul li{
+	font-size: 18px;
+	margin: 1%;
+}
+
+ul{
+	list-style-type: disc;
+}
+
+table{
+	width: 100%;
+}
+
+thead{
+	background: #000;
+	color: #fff;
+	padding: 1%;
+}
+
+tbody tr:nth-child(odd){
+	background: #ddd;
+}
+
+.table-responsive{
+	overflow-x: auto;
+}
+
+.child2 span{
+	border-radius: 10px;
+	border: 1px solid #5d6d7e;
+	background: #ddd;
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 0px 8px 8px -8px #000;
+}
+
+/* Small scale devices*/
+@media only screen and (min-width:320px) and (max-width: 480px){
+	.child{
+	width: 90%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 0px 8px 8px -8px #000;*/
+	border-radius: 10px 0px;
+}
+
+.child2{
+	width: 90%;
+}
+}
+
+
+/*Medium scale devices*/
+@media only screen and (min-width:481px) and (max-width: 768px){
+	.child{
+	width: 45%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 0px 8px 8px -8px #000;*/
+	border-radius: 10px 0px;
+}
+}
+
